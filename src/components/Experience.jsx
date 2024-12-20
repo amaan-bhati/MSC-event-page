@@ -10,6 +10,7 @@ import { useThree } from "@react-three/fiber";
 import { useAtom } from "jotai";
 import { useControls } from "leva";
 import { useEffect, useRef } from "react";
+import { slideAtom } from "./Overlay";
 import { Scene } from "./Scene";
 
 export const scenes = [
